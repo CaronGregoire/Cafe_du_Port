@@ -1,10 +1,10 @@
 <header>
-    <div id="logo"><img src="logo.png" alt="logo" href=""></div>
+    <div id="logo"><img src="logo.png" alt="logo" href="index.php"></div>
     <nav class="navbar" id="navbar">
         <ul class="d-flex">
-            <li class="listNavbar" id="test"><a href="">Menu</a></li>
-            <li class="listNavbar"><a href="">Avis</a></li>
-            <li class="listNavbar"><a href="">Contact</a></li>
+            <li class="listNavbar" id="test"><a href="menus.php">Menu</a></li>
+            <li class="listNavbar"><a href="index.php">Avis</a></li>
+            <li class="listNavbar"><a href="contact.php">Contact</a></li>
         </ul>
     </nav>
         <div id="reservation"><a href="">Réserver</a></div>

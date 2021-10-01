@@ -14,13 +14,13 @@
     ?>
     
   <div class="pic-ctn">
-    <img src="assets/steak.webp" alt="steak" class="pic" width= 700px >
-    <img src="assets/crepe.webp" alt="crepe" class="pic" width= 700px>
-    <img src="assets/icecream.webp" alt="icecream" class="pic" width= 700px> 
-    <img src="assets/beef.webp" alt="beef" class="pic" width= 700px> 
-    <img src="assets/burger.webp" alt="burger" class="pic" width= 700px>
-    <img src="assets/pizza.webp" alt="pizza" class="pic" width= 700px>
-    <img src="assets/tiramisu.jpg" alt="tiramisu" class="pic" width= 700px> 
+    <img src="assets_menus/steak.webp" alt="steak" class="pic" width= 700px >
+    <img src="assets_menus/crepe.webp" alt="crepe" class="pic" width= 700px>
+    <img src="assets_menus/icecream.webp" alt="icecream" class="pic" width= 700px> 
+    <img src="assets_menus/beef.webp" alt="beef" class="pic" width= 700px> 
+    <img src="assets_menus/burger.webp" alt="burger" class="pic" width= 700px>
+    <img src="assets_menus/pizza.webp" alt="pizza" class="pic" width= 700px>
+    <img src="assets_menus/tiramisu.jpg" alt="tiramisu" class="pic" width= 700px> 
   </div>
 
   <div class="menu">
