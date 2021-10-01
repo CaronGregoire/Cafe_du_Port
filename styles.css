@@ -25,6 +25,15 @@ h2 {
     justify-content: center;
 }
 
+.subtitle {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	margin: 1%;
+	text-align: center;
+	color: #3a3a42;
+	text-transform: uppercase;
+}
+
 .presentation {
     color: black;
     font-size: xx-large;
@@ -126,6 +135,179 @@ nav > ul {
   width:80%;
   margin: 6px 5px;
 }
+
+/** contact begin **/
+
+p {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: #333333;
+}
+
+
+.container-box {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 3%;
+    margin: 0px 10%;
+	border-top: 1px solid grey;
+	height: auto;
+}
+
+.box-address {
+	width: 50%;
+	min-width: 50%;
+	padding: 2%;
+	border: 1px solid grey;
+}
+
+.link {
+	color: #007292;
+	text-decoration: none;
+}
+
+.link:hover{
+	color: #A3BAC0;
+	font-weight: bold;
+}
+
+.name-place {
+	text-transform: uppercase;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	padding: 10px;
+	color: #464646;
+}
+
+.maps {
+	width: auto;
+	max-height: 80px;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	box-sizing: border-box;
+}
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	color:#777;
+	background-color:#ffffff;
+}
+
+.container-form {
+	min-width: 300px;
+	max-width: 600px;
+	width:100%;
+	margin: auto;
+	display: flex;
+}
+
+#contact, #contact input {
+	background:#F9F9F9;
+	padding: 35px;
+}
+
+#contact h3 {
+	color: #464646;
+	font-size: 24px;
+}
+
+#contact h4 {
+	margin:15px 0 18px;
+	font: 13px;
+}
+
+label {
+	margin: 0 0 10px;
+	width: 100%;
+}
+
+#contact input, #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 10px;
+	padding:10px;
+	font-size: 16px;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#contact textarea {
+	height:200px;
+	max-width:auto;
+}
+
+#contact-submit {
+	cursor: pointer;
+	width: 100%;
+	border-radius: 12px;
+	background: #007292;
+	color:#FFF;
+	padding: 2%;
+	font-size: 18px;
+}
+
+#contact button:hover {
+	background: #4D8CAA;
+}
+
+#contact button:active {
+	background-color: #2D7293;
+}
+
+/* POP-UP */
+.popup {
+	margin: 50px auto;
+	padding: 20px;
+	background: #A3BAC0;
+	border-radius: 15px;
+	width: 40%;
+	position: relative;
+  }
+
+  .popup h2 {
+	color: black;
+	font-size: 22px;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+
+  .popup .close {
+	top: 40px;
+	right: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #333;
+  }
+
+  .popup .close:hover {
+	color: #007292;
+  }
+  
+  .popup .content {
+	max-height: 30%;
+	overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+	.box{
+	  width: 70%;
+	}
+	.popup{
+	  width: 70%;
+	}
+  }
+  
+/** contact end **/
 
 @media screen and (max-width: 700px) {
   header {
