@@ -1,0 +1,49 @@
+section {
+    padding: 20px;
+  }
+
+
+#welcome {
+    height: 600px;
+    background-image: url("assets/pont.jpg");
+    background-size: 1900px
+}
+
+h1 {
+    color : white; 
+    font-size: 50px; 
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation {
+    color: black;
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em
+  }
+
+
+.photo {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+.horaires {
+    color: black;
+    font-size: xx-large; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em
+}
