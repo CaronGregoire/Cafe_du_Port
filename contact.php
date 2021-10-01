@@ -84,6 +84,8 @@ L'équipe du Café du Port.</p>
 	</div>
 </div>
 
-
+<?php
+require 'footer.php';
+?>
 </body>
 </html>

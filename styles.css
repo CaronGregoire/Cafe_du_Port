@@ -298,6 +298,53 @@ label {
 	overflow: auto;
   }
   
+/** FOOTER Begin **/
+.bloc-footer
+{
+    display: flex;
+    position:relative;
+    border: 1px solid black;
+    height: 300px;
+    justify-content: space-around;
+    background-color:#007292;
+  }
+  .blocs 
+  {
+    width: 100px;
+    height: 100px;
+    margin-bottom:100px;
+  }
+
+  .blocs-adress
+  {
+      margin-top:80px;
+  }
+
+  .blocs-Logo 
+  {
+    margin-top: 85px;
+}
+  .blocs-contact 
+  {
+      margin-top: 80px;
+      display:flex;
+      flex-direction:column;
+  }
+
+  .blocs-medias
+  {
+     display:flex;
+     justify-content: space-between;
+
+  }
+
+  .text-white {
+    color: white;
+  }
+/** FOOTER end **/
+
+
+
   @media screen and (max-width: 700px){
 	.box{
 	  width: 70%;
