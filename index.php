@@ -8,7 +8,9 @@
     <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-
+    <?php
+        require 'header.php' 
+    ?>
     <section id="welcome">
 
         <h1>Bienvenue au Café Du Port </h1>
