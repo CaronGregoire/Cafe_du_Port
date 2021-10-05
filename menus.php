@@ -288,5 +288,6 @@
         require 'footer.php';
     ?>
 <script src = "script.js"></script>
+<script src = "scriptMenus.js"></script>
 </body>
 </html>

@@ -103,11 +103,15 @@ nav > ul {
   margin: 15px;
   text-transform: uppercase; 
   }
-
   .d-flex li a {
        color:white; 
       text-decoration: none;
   }
+.d-flex li a:hover {
+    font-size: 1.6em;
+    text-decoration: underline;
+    transition-duration: 500ms;
+}
   #reservation {
       display: flex;
       list-style: none;
@@ -125,6 +129,9 @@ nav > ul {
       text-decoration: none;
        color:#007292; 
   }
+#reservation a:hover{
+    font-size:1.5em;
+    transition-duration: 500ms;}
 .burger {
   display: none;
   

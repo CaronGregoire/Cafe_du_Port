@@ -87,5 +87,6 @@ L'équipe du Café du Port.</p>
 <?php
 require 'footer.php';
 ?>
+<script src = "script.js"></script>
 </body>
 </html>
