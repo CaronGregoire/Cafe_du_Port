@@ -138,6 +138,13 @@ nav > ul {
 
 /** contact begin **/
 
+.contact {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+}
+
 p {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -224,7 +231,7 @@ body {
 
 #contact h4 {
 	margin:15px 0 18px;
-	font: 13px;
+	font-size: 13px;
 }
 
 label {
@@ -243,8 +250,8 @@ label {
 }
 
 #contact textarea {
-	height:200px;
-	max-width:auto;
+	height: 200px;
+	max-width: auto;
 }
 
 #contact-submit {
@@ -432,7 +439,7 @@ h1 {
   display: block;
   font-size: 50px;
     margin-block-start:0px ;
-    margin-block-end: 20 px;
+    margin-block-end: 20px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
@@ -539,15 +546,6 @@ h2 {
   }
 }
 
-  @media screen and (max-width: 700px){
-	.box{
-	  width: 70%;
-	}
-	.popup{
-	  width: 70%;
-	}
-}
-  
 
 @media screen and (max-width: 700px) {
   header {
@@ -594,3 +592,17 @@ h2 {
   height: 100px;
   width:auto;
 }
+
+.container-box {
+    flex-wrap: wrap;
+    padding: 35px;
+}
+
+.box{
+    width: 70%;
+  }
+
+.popup{
+    width: 70%;
+}
+  }

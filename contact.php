@@ -16,7 +16,7 @@
 
 <!-- PAGE CONTACT -->
 
-    <p class="contact">
+    <p class="contact-title">
         <h2 class='subtitle'>Contact et accès</h2>
     </p>
 
@@ -48,41 +48,19 @@
         <form id="contact" method="post">
           <h3>Vous souhaitez nous contacter ?</h3>
           <h4>Veuillez remplir le formulaire ci-dessous :</h4>
-          <label>
             <input placeholder="Votre nom" type="text" required autofocus>
-          </label>
-          <label>
             <input placeholder="Votre adresse email" type="email" required>
-          </label>
-          <label>
             <input placeholder="Votre numéro de téléphone" type="tel" required>
-          </label>
-          <label>
             <textarea placeholder="Ecrivez votre message" required></textarea>
-          </label>
-          <label>
-            <button name="submit" type="submit" id="contact-submit">Envoyer</button>
-          </label>
+            <div class="box">
+            <button class="button" name="submit" type="submit" id="contact-submit">Envoyer</button>
+            </div>
         </form>
       </div>
 
-<!--  POP-UP - POST VALIDATION FORMULAIRE-->
-<div class="box">
-	<a class="button" href="#contact-submit"></a>
-</div>
 
-<div id="popup1" class="overlay">
-	<div class="popup">
-		<h2>Nous avons bien reçu votre message.</h2>
-		<a class="close" href="javascript:’top.close();’">&times;</a>
-		<div class="content">
-      <p>
-Merci de nous avoir contacté. Nous vous répondrons dans les plus brefs délais.<br>
-A très vite ! <br><br>
-L'équipe du Café du Port.</p>
-		</div>
-	</div>
-</div>
+<script src="script_contact.js"></script>
+
 
 <?php
 require 'footer.php';
