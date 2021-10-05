@@ -15,7 +15,7 @@
             <h2 class="text-white">Nous contacter</h2>
             <div class="blocs-media">
                 <div id="fb">
-                    <img src="img/social-media-g733d58e5f_1280.png" alt="logo" class="resp" height="100px;">
+                    <img src="img/social-media-g733d58e5f_1280.png" alt="logo" class="resp" height="100";>
                 </div>
             </div>
         </div>

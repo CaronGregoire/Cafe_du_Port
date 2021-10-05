@@ -14,23 +14,23 @@
     ?>
     
   <div class="pic-ctn">
-    <img src="assets_menus/steak.webp" alt="steak" class="pic" width= 700px >
-    <img src="assets_menus/crepe.webp" alt="crepe" class="pic" width= 700px>
-    <img src="assets_menus/icecream.webp" alt="icecream" class="pic" width= 700px> 
-    <img src="assets_menus/beef.webp" alt="beef" class="pic" width= 700px> 
-    <img src="assets_menus/burger.webp" alt="burger" class="pic" width= 700px>
-    <img src="assets_menus/pizza.webp" alt="pizza" class="pic" width= 700px>
-    <img src="assets_menus/tiramisu.jpg" alt="tiramisu" class="pic" width= 700px> 
+    <img src="assets_menus/saumon.jpg" alt="saumon" class="pic"  >
+    <img src="assets_menus/crepe.webp" alt="crepe" class="pic" >
+    <img src="assets_menus/icecream.webp" alt="icecream" class="pic" > 
+    <img src="assets_menus/beef.webp" alt="beef" class="pic" > 
+    <img src="assets_menus/burger.webp" alt="burger" class="pic" >
+    <img src="assets_menus/pizza.webp" alt="pizza" class="pic" >
+    <img src="assets_menus/tiramisu.jpg" alt="tiramisu" class="pic" > 
   </div>
 
   <div class="menu">
 <h1>Menus</h1>
 
 <ul id="navMenus">
-  <li><a href="#Entrées">Entrées</a></li>
-  <li><a href="#Plats">Plats</a></li>
-  <li><a href="#Desserts">Desserts</a></li>
-  <li><a href="#Boissons">Boissons</a></li>
+  <li class="navMenu"><a href="#Entrées">Entrées</a></li>
+  <li class="navMenu"><a href="#Plats">Plats</a></li>
+  <li class="navMenu"><a href="#Desserts">Desserts</a></li>
+  <li class="navMenu"><a href="#Boissons">Boissons</a></li>
   
 </ul>
 
