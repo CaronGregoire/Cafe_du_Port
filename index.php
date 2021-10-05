@@ -11,18 +11,18 @@
     <?php
         require 'header.php' 
     ?>
-    <section id="welcome">
+    <section id="welcomepage">
 
-        <h1>Bienvenue au Café Du Port </h1>
+        <h1 class="welcome" >Bienvenue au Café Du Port </h1>
 
       </section>
     
     <div class="content">
         
-        <div class="presentation">
-            <h2>Présentation</h2>
-                <p>
-                    Le Café du Port est un petit bar restaurant, ravie de vous accceuillir
+        <div >
+            <h2 class="titleh2" >Présentation</h2>
+                <p class="presentationtime">
+                    Le Café du Port est un petit bar restaurant, ravie de vous accueillir
                     du Lundi au Dimanche, que ce soit pour déjeuner, diner ou bruncher.
                     Nous cuisinons au rythme des saisons afin de exalter vos papilles.
                     Notre terrasse au bord de la Garonne est ouverte dès l'arrivée des beaux jours.
@@ -30,25 +30,24 @@
         </div>
 
         <div class="photo">
-                
-        
                 <img src="assets/vue1.webp" class="vueTerrasseOne" alt="picturePont" />
-               
                 <img src="assets/vue2.webp" class="vueTerrasseTwo" alt="pictureGaronne" />
-                     
-                
+                <img src="assets/le-cafe-du-port.jpg" class="vueTerasseThree" alt="pictureTable" />
+                <img src="assets/restaurantint.jpg" class="vueTerrasseTwo" alt="pictureinrestaurant" />
         </div>
 
         <div class="horaires">   
-            <h2>Horaires</h2>
-                <p1>
+            <h2 class="titleh2">Horaires</h2>
+                <p class="presentationtime">
                     Notre équipe est présente pour vous acceuillir
                     du Lundi au Dimanche de 11h00 à 22h00.
-                </p1>
-                <p2>
+                </p>
+                <p class="presentationtime">
                     Un service de voiturier est à votre disposition.
-                </p2>
-
+                </p>
+            <div class="photovalet">
+                <img src="assets/valet.webp" alt="picturevalet" />
+            </div>
 
         </div>    
         </div>        
