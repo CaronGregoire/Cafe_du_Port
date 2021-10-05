@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50px; 
+    font-size: 20px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -305,9 +305,11 @@ label {
     display: flex;
     position:relative;
     border: 1px solid black;
-    height: 300px;
+    height: 100px;
+    margin-top:100px;
     justify-content: space-around;
     background-color:#007292;
+    
   }
   .blocs 
   {
@@ -318,24 +320,24 @@ label {
 
   .blocs-adress
   {
-      margin-top:80px;
+      margin-top:20px;
   }
 
   .blocs-Logo 
   {
-    margin-top: 85px;
+    margin-top: 20px;
 }
   .blocs-contact 
   {
-      margin-top: 80px;
+      margin-top: 20px;
       display:flex;
       flex-direction:column;
   }
 
-  .blocs-medias
+  .blocs-media
   {
      display:flex;
-     justify-content: space-between;
+     justify-content: space-around;
 
   }
 
