@@ -1,12 +1,8 @@
-const imgC = document.querySelector('.vueTerrasseOne');
 
-imgC.addEventListener('click', function () {
-    imgC.src = "https://placedog.net/300";
-    imgC.alt = "Happy cute dog"
-  })
 
-  const menu = document.getElementById('burger');
+  const burger = document.getElementById('burger');
   const navbar = document.getElementById('navbar');
-  burger.addEventListener('click', () => {
+  burger.addEventListener('click', (event) => {
       navbar.classList.toggle('d-block');
+      console.log(event.target);
   })
