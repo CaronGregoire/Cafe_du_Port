@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Carte et menus</title>
     <link href="styles.css" rel="stylesheet">
+    <link rel="shortcut icon" href="logo.png">
+
 </head>
 <body>
 
