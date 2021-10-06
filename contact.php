@@ -8,6 +8,8 @@
     <title>Le café du Port - Bordeaux</title>
     <link href="styles.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="logo.png">
+
 </head>
 
 <body>
