@@ -253,6 +253,7 @@ label {
 #contact-submit {
 	cursor: pointer;
 	width: 100%;
+    align-items: center;
     justify-content: center;
 	border-radius: 12px;
     border-color: #007292;

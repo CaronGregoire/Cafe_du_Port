@@ -23,8 +23,8 @@
         <div >
             <h2 class="titleh2" >Présentation</h2>
                 <p class="presentationtime">
-                    Le Café du Port est un petit bar restaurant, ravie de vous accueillir
-                    du Lundi au Dimanche, que ce soit pour déjeuner, diner ou bruncher.
+                    Le Café du Port est un petit bar restaurant, ravi de vous accueillir
+                    du lundi au dimanche, que ce soit pour déjeuner, diner ou bruncher.
                     Nous cuisinons au rythme des saisons afin de exalter vos papilles.
                     Notre terrasse au bord de la Garonne est ouverte dès l'arrivée des beaux jours.
                 </p>
@@ -41,7 +41,7 @@
             <h2 class="titleh2">Horaires</h2>
                 <p class="presentationtime">
                     Notre équipe est présente pour vous acceuillir
-                    du Lundi au Dimanche de 11h00 à 22h00.
+                    du lundi au dimanche de 11h00 à 22h00.
                 </p>
                 <p class="presentationtime">
                     Un service de voiturier est à votre disposition.

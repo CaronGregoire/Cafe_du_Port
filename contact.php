@@ -56,8 +56,8 @@
         <form id="contact" method="post">
           <h2>Vous souhaitez nous contacter ?</h2>
             <p>Veuillez remplir le formulaire ci-dessous :</p>
-            <input placeholder="Votre nom" type="text" required autofocus>
-            <input placeholder="Votre adresse email" type="email" required>
+            <input placeholder="Votre nom" type="text" id="name" required autofocus>
+            <input placeholder="Votre adresse email" type="email" id="email" required>
             <input placeholder="Votre numéro de téléphone" type="tel" required>
             <textarea placeholder="Ecrivez votre message" required></textarea>
             <div class="box">
