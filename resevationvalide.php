@@ -12,9 +12,10 @@
 require 'header.php'
 ?>
 
-<section>
-    <h1>Réservation</h1>
+<section class="contact-title">
+    <h1 class="titleh2">Réservation</h1>
 </section>
+
 <div class="container-reservation">
 
     <div class="box-address">
@@ -36,7 +37,7 @@ require 'header.php'
 
 
 
-    <div class="container-form">
+    <div class="container-reservation-form">
         <?php
 
         if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -60,7 +61,7 @@ require 'header.php'
             !filter_var($user_mail, FILTER_VALIDATE_EMAIL)) {
             echo 'Il manque des informations ou le format des données n\'est pas bon';
         } else {
-            echo 'Merci ' . $user_firstName . ' ' . $user_name . ', votre réservation a bien été prise en compte pour le ' . $user_dateReservation . ' a ' . $user_timesReservation . '.';
+            echo 'Merci ' . $user_firstName . ' ' . $user_name . ', votre réservation a bien été prise en compte pour le ' . $user_dateReservation . ' à ' . $user_timesReservation . '.';
         }
 
         function cleanInput(string $value): string
