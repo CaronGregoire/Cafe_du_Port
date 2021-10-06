@@ -4,6 +4,7 @@ body {
     background-color:#ffffff;
 }
 
+
 /**page accueil begin **/
 
 section {
@@ -25,14 +26,10 @@ section {
     justify-content: center;
 }
 
-<<<<<<< HEAD
-h2 {
-    font-size: 20px; 
-=======
+
 .titleh2 {
     font-size: 40px;
     color: #007292;
->>>>>>> 248aba6d87a1828ad5eab25049fd3e35dc52fe33
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,7 +63,9 @@ header {
   align-items: center;
   justify-content:space-between;
    width: 100%;
-  position:fixed;
+  position: sticky;
+    top: 0;
+    z-index: 5;
 }
 .d-flex {
   display: flex;
@@ -253,7 +252,7 @@ label {
 
 #contact textarea {
 	height: 200px;
-	max-width: auto;
+	max-width: 700px;
 }
 
 #contact-submit {
@@ -360,14 +359,9 @@ label {
 html, body {
   margin: 0;
   padding: 0;
-
 }
 
-
-
-
 .pic-ctn {
-
   width: 100vw;
   height: 200px;
 }
@@ -407,7 +401,7 @@ html, body {
   position: relative;
   width: 1250px;
   height: 500px;
-
+  margin-top: 50px;
 }
 
 .pic-ctn > img {
@@ -437,36 +431,25 @@ img:nth-child(7) {
   animation-delay: 12s;
 }
 
-h1 {
-  text-align: center;
-  font-style: italic;
-  display: block;
-  font-size: 50px;
-    margin-block-start:0px ;
-    margin-block-end: 20px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
 
-h2 {
-  display: flex;
-  justify-content: center;
-}
+
 
 #navMenus {
   margin: 0 ;
   padding: 0 ;
   list-style: none ;
   text-align: center ;
+
 }
 
 #navMenus li {
   display: inline ;
   margin-right: 1px ;
-  color: black ;
-  font-size: 30px;
 
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: darkslategrey;
+    font-size: 25px;
+    padding: 0 250px;
  }
 
 #navMenus li a {
@@ -550,8 +533,7 @@ h2 {
   }
 }
 
-<<<<<<< HEAD
-=======
+
   @media screen and (max-width: 700px){
 	.box{
 	  width: 70%;
@@ -561,7 +543,7 @@ h2 {
 	}
 }
 
->>>>>>> 9262f67a8f143b6d15d059543416d5f011439321
+
 
 @media screen and (max-width: 700px) {
   header {
@@ -621,4 +603,3 @@ h2 {
 .popup{
     width: 70%;
 }
-  }
