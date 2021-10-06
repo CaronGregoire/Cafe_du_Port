@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body {
 
     color:#777;
@@ -7,7 +10,9 @@ body {
 
 /**page accueil begin **/
 
-
+.contact-title {
+    padding-top: 60px;
+  }
 
 #welcomepage {
     height: 600px;
@@ -160,6 +165,10 @@ p {
 	color: #333333;
 }
 
+.subtitle {
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
 
 .container-box {
 	display: flex;
@@ -198,34 +207,28 @@ p {
 }
 
 .maps {
-	width: auto;
-	max-height: 80px;
+	width: 300px;
+	max-height: 80%;
 	display: inline-flex;
 	flex-wrap: wrap;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
-*{
-	width: auto;
-}
-
-
+/* FORMULAIRE */
 
 .container-form {
-	min-width: 300px;
-	max-width: 600px;
-	width:100%;
+    min-width: 300px;
+    max-width: 700px;
+	width: 100%;
+    display: flex;
 	margin: auto;
-	display: flex;
 }
 
 #contact, #contact input {
 	background:#F9F9F9;
-	padding: 35px;
+	padding: 15px 25px;
 }
 
-#contact h3 {
+#contact h2 {
 	color: #464646;
 	font-size: 24px;
 }
@@ -236,12 +239,12 @@ p {
 }
 
 label {
-	margin: 0 0 10px;
-	width: 100%;
+	margin: 0 10px;
+	width: 50%;
 }
 
 #contact input, #contact textarea {
-	width:100%;
+	width:95%;
 	border:1px solid #CCC;
 	background:#FFF;
 	margin:0 0 10px;
@@ -252,16 +255,18 @@ label {
 
 #contact textarea {
 	height: 200px;
-	max-width: 700px;
+	max-width: 100%;
 }
 
 #contact-submit {
 	cursor: pointer;
 	width: 100%;
+    justify-content: center;
 	border-radius: 12px;
+    border-color: #007292;
 	background: #007292;
-	color:#FFF;
-	padding: 2%;
+    color: white;
+	padding: 15px;
 	font-size: 18px;
 }
 
@@ -274,38 +279,25 @@ label {
 }
 
 /* POP-UP */
-.popup {
-	margin: 50px auto;
-	padding: 20px;
-	background: #A3BAC0;
-	border-radius: 15px;
-	width: 40%;
-	position: relative;
-  }
 
-  .popup h2 {
-	color: black;
-	font-size: 22px;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-}
-
-.popup .close {
-  top: 40px;
-	right: 30px;
-	font-size: 30px;
-	font-weight: bold;
-	color: #333;
-}
-
-.popup .close:hover {
-  color: #007292;
-}
-
-.popup .content {
-  max-height: 30%;
-	overflow: auto;
-}
 /** contact end **/
+
+/** reservation begin **/
+
+.container-reservation {
+    display: block;
+}
+.container-form {
+    justify-content: center;
+    font-size: 1.2em;
+    color: #007292;
+}
+.container-form div {
+    justify-content: center;
+    margin: 5px;
+}
+ /** reservation end **/
+
 
 /** FOOTER Begin **/
 .bloc-footer
@@ -313,7 +305,8 @@ label {
     display: flex;
     position:relative;
     border: 1px solid black;
-    height: auto;
+    height: 100%;
+    margin-top:100px;
     justify-content: space-around;
     background-color:#007292;
     
@@ -363,9 +356,11 @@ label {
 html, body {
   margin: 0;
   padding: 0;
+
 }
 
 .pic-ctn {
+
   width: 100vw;
   height: 200px;
 }
@@ -602,7 +597,34 @@ img:nth-child(7) {
   }
   .presentationtime {
       padding: 10px;
+    }
 }
+}
+
+
+@media screen and (max-width: 813px) {
+section {
+padding-top: 80px;
+}
+
+.container-box {
+    align-items:center;
+    display: flex;
+    padding: 10px 50px;
+}
+.box-address{
+    margin: 10px;
+}
+
+.maps {
+    margin: 10px;
+}
+}
+
+
+
+
+
 
 @media screen and (max-width: 700px) {
   .footer {

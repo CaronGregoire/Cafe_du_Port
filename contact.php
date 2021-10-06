@@ -8,6 +8,14 @@
     <title>Le café du Port - Bordeaux</title>
     <link href="styles.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="logo.png">
+
+
 </head>
 
 <body>
@@ -16,9 +24,9 @@
 
 <!-- PAGE CONTACT -->
 
-    <p class="contact-title">
-        <h2 class='subtitle'>Contact et accès</h2>
-    </p>
+    <section class="contact-title">
+        <h1 class="titleh2">Contact et accès</h1>
+    </section>
 
     
 <div class="container-box">
@@ -39,15 +47,15 @@
   </div>
 
   <div class="maps">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d22631.945535720064!2d-0.56224!3d44.842072!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0xd5526320ac42e31%3A0x414cca4ece802d4a!2sLe%20Caf%C3%A9%20du%20Port%2C%201%20Quai%20Deschamps%2C%2033100%20Bordeaux!3m2!1d44.8381823!2d-0.5585285999999999!5e0!3m2!1sfr!2sfr!4v1632949797362!5m2!1sfr!2sfr" width="50%" height="auto" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d22631.945535720064!2d-0.56224!3d44.842072!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0xd5526320ac42e31%3A0x414cca4ece802d4a!2sLe%20Caf%C3%A9%20du%20Port%2C%201%20Quai%20Deschamps%2C%2033100%20Bordeaux!3m2!1d44.8381823!2d-0.5585285999999999!5e0!3m2!1sfr!2sfr!4v1632949797362!5m2!1sfr!2sfr"  loading="lazy"></iframe>
   </div>
 </div>
 
 <!-- FORMULAIRE DE CONTACT -->
     <div class="container-form">  
         <form id="contact" method="post">
-          <h3>Vous souhaitez nous contacter ?</h3>
-          <h4>Veuillez remplir le formulaire ci-dessous :</h4>
+          <h2>Vous souhaitez nous contacter ?</h2>
+            <p>Veuillez remplir le formulaire ci-dessous :</p>
             <input placeholder="Votre nom" type="text" required autofocus>
             <input placeholder="Votre adresse email" type="email" required>
             <input placeholder="Votre numéro de téléphone" type="tel" required>
