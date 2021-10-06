@@ -304,6 +304,23 @@ label {
 }
 /** contact end **/
 
+/** reservation begin **/
+
+.container-reservation {
+    display: block;
+}
+.container-form {
+    justify-content: center;
+    font-size: 1.2em;
+    color: #007292;
+}
+.container-form div {
+    justify-content: center;
+    margin: 5px;
+}
+ /** reservation end **/
+
+
 /** FOOTER Begin **/
 .bloc-footer
 {
@@ -613,6 +630,7 @@ h2 {
   }
   .presentationtime {
       padding: 10px;
+    }
 }
 .d-block {
   display: block;
