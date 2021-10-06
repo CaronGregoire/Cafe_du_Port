@@ -1,13 +1,15 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+body {
     color:#777;
     background-color:#ffffff;
 }
 
 /**page accueil begin **/
 
-section {
-    padding: 100px;
+.contact-title {
+    padding-top: 60px;
   }
 
 #welcomepage {
@@ -141,38 +143,40 @@ nav > ul {
   margin: 6px 5px;
 }
 
-/** contact begin **/
+/** CONTACT **/
 
-.contact {
+p {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 16px;
     text-align: center;
     color: #333333;
 }
 
-p {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	text-align: center;
-	color: #333333;
+h1 > subtitle {
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: darkslategrey;
 }
 
+.subtitle {
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
 
 .container-box {
 	display: flex;
-	align-items: flex-start;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	padding: 3%;
+	padding: 50px;
     margin: 0px 10%;
-	border-top: 1px solid grey;
 	height: auto;
 }
 
 .box-address {
-	width: 50%;
-	min-width: 50%;
-	padding: 2%;
+	width: 350px;
+	min-width: 200px;
+	padding: 5px;
 	border: 1px solid grey;
 }
 
@@ -190,55 +194,45 @@ p {
 	text-transform: uppercase;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 24px;
-	padding: 10px;
 	color: #464646;
 }
 
 .maps {
-	width: auto;
-	max-height: 80px;
+	width: 300px;
+	max-height: 80%;
 	display: inline-flex;
 	flex-wrap: wrap;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
-*{
-	width: auto;
-}
-
-
+/* FORMULAIRE */
 
 .container-form {
-	min-width: 300px;
-	max-width: 600px;
-	width:100%;
+    min-width: 300px;
+    max-width: 700px;
+	width: 100%;
+    display: flex;
 	margin: auto;
-	display: flex;
 }
 
 #contact, #contact input {
 	background:#F9F9F9;
-	padding: 35px;
+	padding: 15px 25px;
 }
 
-#contact h3 {
+#contact h2 {
 	color: #464646;
-	font-size: 24px;
-}
-
-#contact h4 {
-	margin:15px 0 18px;
-	font-size: 13px;
+    text-align: center;
+	font-size: 28px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 label {
-	margin: 0 0 10px;
-	width: 100%;
+	margin: 0 10px;
+	width: 50%;
 }
 
 #contact input, #contact textarea {
-	width:100%;
+	width:95%;
 	border:1px solid #CCC;
 	background:#FFF;
 	margin:0 0 10px;
@@ -255,10 +249,12 @@ label {
 #contact-submit {
 	cursor: pointer;
 	width: 100%;
+    justify-content: center;
 	border-radius: 12px;
+    border-color: #007292;
 	background: #007292;
-	color:#FFF;
-	padding: 2%;
+    color: white;
+	padding: 15px;
 	font-size: 18px;
 }
 
@@ -271,37 +267,7 @@ label {
 }
 
 /* POP-UP */
-.popup {
-	margin: 50px auto;
-	padding: 20px;
-	background: #A3BAC0;
-	border-radius: 15px;
-	width: 40%;
-	position: relative;
-  }
 
-  .popup h2 {
-	color: black;
-	font-size: 22px;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-}
-
-.popup .close {
-  top: 40px;
-	right: 30px;
-	font-size: 30px;
-	font-weight: bold;
-	color: #333;
-}
-
-.popup .close:hover {
-  color: #007292;
-}
-
-.popup .content {
-  max-height: 30%;
-	overflow: auto;
-}
 /** contact end **/
 
 /** FOOTER Begin **/
@@ -314,7 +280,7 @@ label {
     margin-top:100px;
     justify-content: space-around;
     background-color:#007292;
-    
+
   }
   .blocs
   {
@@ -356,10 +322,7 @@ label {
 html, body {
   margin: 0;
   padding: 0;
-
 }
-
-
 
 
 .pic-ctn {
@@ -431,23 +394,6 @@ img:nth-child(6) {
 }
 img:nth-child(7) {
   animation-delay: 12s;
-}
-
-h1 {
-  text-align: center;
-  font-style: italic;
-  display: block;
-  font-size: 50px;
-    margin-block-start:0px ;
-    margin-block-end: 20px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-h2 {
-  display: flex;
-  justify-content: center;
 }
 
 #navMenus {
@@ -546,17 +492,6 @@ h2 {
   }
 }
 
-
-  @media screen and (max-width: 700px){
-	.box{
-	  width: 70%;
-	}
-	.popup{
-	  width: 70%;
-	}
-}
-
-
 @media screen and (max-width: 900px) {
   header {
       width: 97%;
@@ -603,7 +538,6 @@ h2 {
       padding: 4px;
       margin: 0px;
 
-
   }
   #reservation {
       width: auto;
@@ -614,21 +548,36 @@ h2 {
   .presentationtime {
       padding: 10px;
 }
+}
+
+
+@media screen and (max-width: 813px) {
+section {
+padding-top: 80px;
+}
+
+.container-box {
+    align-items:center;
+    display: flex;
+    padding: 10px 50px;
+}
+.box-address{
+    margin: 10px;
+}
+
+.maps {
+    margin: 10px;
+}
+}
+
+
+
+
+
 .d-block {
   display: block;
   height: auto;
   width:auto;
 }
 
-.container-box {
-    flex-wrap: wrap;
-    padding: 35px;
-}
 
-.box{
-    width: 70%;
-  }
-
-.popup{
-    width: 70%;
-}
