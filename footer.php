@@ -8,7 +8,7 @@
         </div>
         <div class="blocs-Logo">
             <div id="photo">
-                <img src="logo.png" alt="logo" class="resp" height="70px;">
+                <img src="logo.png" alt="logo" class="resp" height="130px;">
             </div>
         </div>
         <div class="blocs-contact">
@@ -16,14 +16,14 @@
             <div class="blocs-media">
                 <div id="fb">
                     <a href="https://www.facebook.com/lecafeduport" target="_blank">
-                    <img src="img/logo_fb.webp" alt="logo" class="resp" height="50";>
+                    <img src="img/logo_fcb.png" alt="logo" class="resp" height="50";>
                    </a>
                 </div>
                 <div id="insta">
                     <a href="https://www.instagram.com/lecafeduportbordeaux/?hl=fr" target="_blank">
-                    <img src="img/logo_insta.webp" alt="logo" class="resp" height="50";>
+                    <img src="img/logo_instagram.png" alt="logo" class="resp" height="50";>
                     </a>
             </div>
-       </div>
+       </div>logo_fcb
      </div>
 </footer>

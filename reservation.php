@@ -13,9 +13,11 @@
     <?php
         require 'header.php' 
     ?>
-    <section>
-        <h1>Réservation</h1>
+
+    <section class="contact-title">
+        <h1 class="titleh2">Réservation</h1>
     </section>
+
 <div class="container-reservation">
     
   <div class="box-address">
@@ -37,10 +39,10 @@
 
 
 
-<div class="container-form">  
+<div class="container-reservation-form">
         <form action="resevationvalide.php" method="post">
-          <p>Vous souhaitez réserver?<br>
-          Veuillez remplir le formulaire ci-dessous :</p>
+         <h2>Vous souhaitez réserver?</h2>
+          <p>Veuillez remplir le formulaire ci-dessous :</p>
             <div>
                 <label for="name">Nom:</label>
                 <input id="name" name="user_name" placeholder="Votre nom" type="text" required autofocus>
@@ -59,7 +61,7 @@
             </div>
             <div>
                 <label for="dateReservation">Date de votre réservation:</label>
-                <input id="dateReservation" name="user_dateReservation" type="date" required></input>
+                <input id="dateReservation" name="user_dateReservation" type="date" value = required></input>
             </div>
             <div>
                 <input type="radio" name="user_timesReservation" value="12h00" id="12h00" /> <label for="12h00">12h00</label><br />

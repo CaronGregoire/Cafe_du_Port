@@ -56,6 +56,7 @@
     <?php 
         require 'footer.php';
     ?>
+    <script src="scriptMenus.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
