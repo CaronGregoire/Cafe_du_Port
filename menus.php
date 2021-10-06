@@ -17,14 +17,18 @@
     ?>
     
   <div class="pic-ctn">
-    <img src="assets_menus/plat1.jpg" alt="saumon" class="pic"  >
-    <img src="assets_menus/plat2.jpg" alt="crepe" class="pic" >
-    <img src="assets_menus/plat3.jpg" alt="icecream" class="pic" >
-    <img src="assets_menus/plat4.jpg" alt="beef" class="pic" >
-    <img src="assets_menus/plat5.jpg" alt="burger" class="pic" >
-    <img src="assets_menus/plat6.jpg" alt="pizza" class="pic" >
-    <img src="assets_menus/plat7.jpg" alt="tiramisu" class="pic" >
+    <img src="assets_menus/plat1.jpg" alt="beef" class="pic"  >
+    <img src="assets_menus/plat2.jpg" alt="shirp" class="pic" >
+    <img src="assets_menus/plat3.jpg" alt="chicken" class="pic" >
+    <img src="assets_menus/plat4.jpg" alt="chocolate" class="pic" >
+    <img src="assets_menus/plat5.jpg" alt="eclairFraise" class="pic" >
+    <img src="assets_menus/plat6.jpg" alt="creme" class="pic" >
+    <img src="assets_menus/plat7.jpg" alt="champagne" class="pic" >
   </div>
+
+<div class="pic-mobile">
+    <img src="assets_menus/chicken3.png" alt="chicken" class="pic" >
+</div>
 
   <div class="menu">
 <h1 class="titleh2">Menus</h1>

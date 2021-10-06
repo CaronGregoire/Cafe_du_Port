@@ -7,6 +7,7 @@ body {
     background-color:#ffffff;
 }
 
+
 /**page accueil begin **/
 
 .contact-title {
@@ -28,6 +29,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .titleh2 {
     font-size: 40px;
     color: #007292;
@@ -147,7 +149,7 @@ nav > ul {
   margin: 6px 5px;
 }
 
-/** CONTACT **/
+/** contact begin **/
 
 .contact {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -170,17 +172,19 @@ p {
 
 .container-box {
 	display: flex;
+	align-items: flex-start;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	padding: 50px;
+	padding: 3%;
     margin: 0px 10%;
+	border-top: 1px solid grey;
 	height: auto;
 }
 
 .box-address {
-	width: 350px;
-	min-width: 200px;
-	padding: 5px;
+	width: 50%;
+	min-width: 50%;
+	padding: 2%;
 	border: 1px solid grey;
 }
 
@@ -198,6 +202,7 @@ p {
 	text-transform: uppercase;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 24px;
+	padding: 10px;
 	color: #464646;
 }
 
@@ -225,9 +230,12 @@ p {
 
 #contact h2 {
 	color: #464646;
-    text-align: center;
-	font-size: 28px;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+}
+
+#contact h4 {
+	margin:15px 0 18px;
+	font-size: 13px;
 }
 
 label {
@@ -277,14 +285,25 @@ label {
 /** reservation begin **/
 
 .container-reservation {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.container-form {
+.container-reservation-form {
     justify-content: center;
     font-size: 1.2em;
-    color: #007292;
+    background:#F9F9F9;
+    padding: 15px 25px;
+    margin: 20px;
 }
-.container-form div {
+.container-reservation-form h2 {
+    color: #464646;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.container-reservation-form div {
     justify-content: center;
     margin: 5px;
 }
@@ -353,10 +372,13 @@ html, body {
 }
 
 .pic-ctn {
+    display: block;
 
-  width: 100vw;
-  height: 200px;
 }
+
+.pic-mobile {
+    display: none;
+    }
 
 @keyframes display {
   0% {
@@ -422,6 +444,9 @@ img:nth-child(6) {
 img:nth-child(7) {
   animation-delay: 12s;
 }
+
+
+
 
 #navMenus {
   margin: 0 ;
@@ -590,7 +615,6 @@ img:nth-child(7) {
     }
 }
 
-
 @media screen and (max-width: 813px) {
 section {
 padding-top: 80px;
@@ -610,6 +634,17 @@ padding-top: 80px;
 }
 }
 
+
+@media screen and (max-width: 800px) {
+    .pic-ctn {
+        display : none;
+    }
+    .pic-mobile {
+        display : block;
+    }
+}
+
+
 @media screen and (max-width: 700px) {
   .footer {
     width:97%;
@@ -628,10 +663,12 @@ padding-top: 80px;
     margin:auto;
   }
 
+
   .blocs-adress,.blocs-contact h2
   {
    margin:auto;
   }
+
 
   .blocs-media
   {

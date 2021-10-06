@@ -41,7 +41,7 @@
             <h2 class="titleh2">Horaires</h2>
                 <p class="presentationtime">
                     Notre équipe est présente pour vous acceuillir
-                    du Lundi au Dimanche de 11h00 à 22h00.
+                    du lundi au dimanche de 11h00 à 22h00.
                 </p>
                 <p class="presentationtime">
                     Un service de voiturier est à votre disposition.
@@ -56,6 +56,7 @@
     <?php 
         require 'footer.php';
     ?>
+    <script src="scriptMenus.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
