@@ -7,14 +7,13 @@ body {
 
 /**page accueil begin **/
 
-section {
-    padding: 100px;
-  }
+
 
 #welcomepage {
     height: 600px;
     background-image: url("assets/pont.jpg");
-    background-size: 1900px
+    background-size: 1900px;
+    padding: 25px;
 }
 
 .welcome {
