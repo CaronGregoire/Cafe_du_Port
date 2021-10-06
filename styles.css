@@ -26,7 +26,6 @@ section {
     justify-content: center;
 }
 
-
 .titleh2 {
     font-size: 40px;
     color: #007292;
@@ -97,6 +96,8 @@ nav > ul {
 #logo img{
   width: 100%;
   height: 100%;
+  border-radius: 30px;
+
 }
 .d-flex li {
   font-size: 1.5em;
@@ -313,8 +314,7 @@ label {
     display: flex;
     position:relative;
     border: 1px solid black;
-    height: 100px;
-    margin-top:100px;
+    height: auto;
     justify-content: space-around;
     background-color:#007292;
     
@@ -323,7 +323,7 @@ label {
   {
     width: 100px;
     height: 100px;
-    margin-bottom:100px;
+    margin-top:100px;
   }
 
   .blocs-adress
@@ -331,9 +331,14 @@ label {
       margin-top:20px;
   }
 
+  .blocs-adress p
+  {
+    color:white;
+  }
+
   .blocs-Logo
   {
-    margin-top: 20px;
+    margin-top: 60px;
 }
   .blocs-contact
   {
@@ -533,7 +538,6 @@ img:nth-child(7) {
   }
 }
 
-
   @media screen and (max-width: 700px){
 	.box{
 	  width: 70%;
@@ -543,11 +547,11 @@ img:nth-child(7) {
 	}
 }
 
-
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   header {
       width: 97%;
+      height: auto;
+      margin: 1%;
       border: 2px solid #007292;
       border-radius: 10px;
       justify-content:space-between;
@@ -559,17 +563,30 @@ img:nth-child(7) {
       display: inline-block;
       cursor: pointer;
       border: 3px solid black;
+      border-radius:10px;
+      box-shadow:0px 6px 10px black;
       height: 40px;
       width: 50px;
       justify-content:center;
       align-content:space-between;
-          }
+  }
   nav > ul {
-      display:block;
-      flex-direction:column;
-      height:auto;
+      display: block;
+      flex-direction: column;
+      height: auto;
+  }
 
+  .photo {
+        flex-direction:column;
+        height:auto;
+    }
 
+    .photo img {
+        margin :5px;
+    }
+    .photovalet {
+        width:auto;
+        height:150px;
   }
   .d-flex li {
       font-size: 1em;
@@ -584,12 +601,28 @@ img:nth-child(7) {
       margin: 5px;
       font-size: 1em;
   }
+  .presentationtime {
+      padding: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    width:97%;
+    margin:5px;
+  }
+  .bloc-footer{
+    flex-direction:column;
+  }
 }
 .d-block {
   display: block;
-  height: 100px;
+  height: auto;
   width:auto;
 }
+  .blocs-Logo{
+    margin:auto;
+  }
+
 
 .container-box {
     flex-wrap: wrap;
@@ -600,6 +633,9 @@ img:nth-child(7) {
     width: 70%;
   }
 
-.popup{
+.popup {
     width: 70%;
 }
+
+}
+
