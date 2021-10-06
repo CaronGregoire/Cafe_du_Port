@@ -15,10 +15,15 @@
             <h2 class="text-white">Nous contacter</h2>
             <div class="blocs-media">
                 <div id="fb">
+                    <a href="https://www.facebook.com/lecafeduport" target="_blank">
                     <img src="img/logo_fb.webp" alt="logo" class="resp" height="50";>
+                   </a>
                 </div>
                 <div id="insta">
+                    <a href="https://www.instagram.com/lecafeduportbordeaux/?hl=fr" target="_blank">
                     <img src="img/logo_insta.webp" alt="logo" class="resp" height="50";>
+                    </a>
             </div>
        </div>
+     </div>
 </footer>
