@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body {
+
     color:#777;
     background-color:#ffffff;
 }
@@ -15,7 +16,8 @@ body {
 #welcomepage {
     height: 600px;
     background-image: url("assets/pont.jpg");
-    background-size: 1900px
+    background-size: 1900px;
+    padding: 25px;
 }
 
 .welcome {
@@ -62,7 +64,9 @@ header {
   align-items: center;
   justify-content:space-between;
    width: 100%;
-  position:fixed;
+  position: sticky;
+    top: 0;
+    z-index: 5;
 }
 .d-flex {
   display: flex;
@@ -145,18 +149,18 @@ nav > ul {
 
 /** CONTACT **/
 
-p {
+.contact {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 16px;
     text-align: center;
     color: #333333;
 }
 
-h1 > subtitle {
-    font-size: 30px;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: darkslategrey;
+p {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: #333333;
 }
 
 .subtitle {
@@ -243,7 +247,7 @@ label {
 
 #contact textarea {
 	height: 200px;
-	max-width: auto;
+	max-width: 100%;
 }
 
 #contact-submit {
@@ -276,17 +280,17 @@ label {
     display: flex;
     position:relative;
     border: 1px solid black;
-    height: 100px;
+    height: 100%;
     margin-top:100px;
     justify-content: space-around;
     background-color:#007292;
-
+    
   }
   .blocs
   {
     width: 100px;
     height: 100px;
-    margin-bottom:100px;
+    margin-top:100px;
   }
 
   .blocs-adress
@@ -294,9 +298,14 @@ label {
       margin-top:20px;
   }
 
+  .blocs-adress p
+  {
+    color:white;
+  }
+
   .blocs-Logo
   {
-    margin-top: 20px;
+    margin-top: 60px;
 }
   .blocs-contact
   {
@@ -322,6 +331,7 @@ label {
 html, body {
   margin: 0;
   padding: 0;
+
 }
 
 
@@ -366,7 +376,7 @@ html, body {
   position: relative;
   width: 1250px;
   height: 500px;
-
+  margin-top: 50px;
 }
 
 .pic-ctn > img {
@@ -401,14 +411,17 @@ img:nth-child(7) {
   padding: 0 ;
   list-style: none ;
   text-align: center ;
+
 }
 
 #navMenus li {
   display: inline ;
   margin-right: 1px ;
-  color: black ;
-  font-size: 30px;
 
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: darkslategrey;
+    font-size: 25px;
+    padding: 0 250px;
  }
 
 #navMenus li a {
@@ -492,6 +505,15 @@ img:nth-child(7) {
   }
 }
 
+  @media screen and (max-width: 700px){
+	.box{
+	  width: 70%;
+	}
+	.popup{
+	  width: 70%;
+	}
+}
+
 @media screen and (max-width: 900px) {
   header {
       width: 97%;
@@ -538,6 +560,7 @@ img:nth-child(7) {
       padding: 4px;
       margin: 0px;
 
+
   }
   #reservation {
       width: auto;
@@ -574,10 +597,24 @@ padding-top: 80px;
 
 
 
+
+@media screen and (max-width: 700px) {
+  .footer {
+    width:97%;
+    margin:5px;
+  }
+  .bloc-footer{
+    flex-direction:column;
+  }
+}
 .d-block {
   display: block;
   height: auto;
   width:auto;
 }
+  .blocs-Logo{
+    margin:auto;
+  }
+
 
 
