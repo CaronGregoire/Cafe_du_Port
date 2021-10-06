@@ -298,8 +298,7 @@ label {
     position:relative;
     border: 1px solid black;
     height: 100%;
-    margin-top:100px;
-    justify-content: space-around;
+    justify-content: center;
     background-color:#007292;
     
   }
@@ -307,12 +306,13 @@ label {
   {
     width: 100px;
     height: 100px;
-    margin-top:100px;
   }
 
   .blocs-adress
   {
       margin-top:20px;
+      margin-left:50px;
+
   }
 
   .blocs-adress p
@@ -329,6 +329,7 @@ label {
       margin-top: 20px;
       display:flex;
       flex-direction:column;
+      margin-right:50px;
   }
 
   .blocs-media
@@ -350,7 +351,6 @@ html, body {
   padding: 0;
 
 }
-
 
 .pic-ctn {
 
@@ -589,7 +589,6 @@ img:nth-child(7) {
       padding: 10px;
     }
 }
-}
 
 
 @media screen and (max-width: 813px) {
@@ -611,11 +610,6 @@ padding-top: 80px;
 }
 }
 
-
-
-
-
-
 @media screen and (max-width: 700px) {
   .footer {
     width:97%;
@@ -634,5 +628,13 @@ padding-top: 80px;
     margin:auto;
   }
 
+  .blocs-adress,.blocs-contact h2
+  {
+   margin:auto;
+  }
 
+  .blocs-media
+  {
+    margin-top:30px;
+  }
 

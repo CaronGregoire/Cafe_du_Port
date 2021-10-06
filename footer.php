@@ -8,7 +8,7 @@
         </div>
         <div class="blocs-Logo">
             <div id="photo">
-                <img src="logo.png" alt="logo" class="resp" height="70px;">
+                <img src="logo.png" alt="logo" class="resp" height="130px;">
             </div>
         </div>
         <div class="blocs-contact">
