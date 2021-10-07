@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
 body {
 
     color:#777;
@@ -10,9 +7,7 @@ body {
 
 /**page accueil begin **/
 
-.contact-title {
-    padding-top: 60px;
-  }
+
 
 #welcomepage {
     height: 600px;
@@ -24,18 +19,18 @@ body {
 .welcome {
     color : white;
     font-size: 50px;
-    height: 300px;
-    display: flex;
+        display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .titleh2 {
-    font-size: 40px;
-    color: #007292;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 40px;
+  color: #007292;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .presentationtime {
@@ -52,32 +47,37 @@ body {
   }
 
 .photovalet {
-    display: flex;
-    justify-content: center;
-    padding-block-end: 100px;
+  display: flex;
+  justify-content: center;
+  padding-block-end: 100px;
 }
-
+/** navbar Begin**/
 
 header {
   background-color: #007292;
   opacity: 0.8;
-   color:white;
+  color:white;
   display: flex;
   align-items: center;
   justify-content:space-between;
-   width: 100%;
+  width: 100%;
   position: sticky;
-    top: 0;
-    z-index: 5;
+  top: 0;
+  z-index: 5;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
+
+
 .d-flex {
   display: flex;
   list-style: none;
   justify-content: flex-end;
 }
+
 nav > ul, .navbar {
   height: 60px;
 }
+
 nav > ul {
   list-style: none;
   justify-content: space-around;
@@ -97,51 +97,58 @@ nav > ul {
   height:auto;
   max-width:60px;
 }
+
 #logo img{
   width: 100%;
   height: 100%;
   border-radius: 30px;
-
 }
+
 .d-flex li {
   font-size: 1.5em;
   padding: 10px 15px;
   margin: 15px;
   text-transform: uppercase;
   }
-  .d-flex li a {
-       color:white;
-      text-decoration: none;
+
+.d-flex li a {
+  color:white;
+  text-decoration: none;
   }
+
 .d-flex li a:hover {
-    font-size: 1.6em;
-    text-decoration: underline;
-    transition-duration: 500ms;
+  font-size: 1.6em;
+  text-decoration: underline;
+  transition-duration: 500ms;
 }
-  #reservation {
-      display: flex;
-      list-style: none;
-      text-decoration: none;
-      align-items: center;
-      background-color: white;
-      border: 1px solid black;
-      border-radius: 5px;
-      padding: 10px 15px;
-      margin: 0 20px;
-      font-size:1.5em;
-      text-transform: uppercase;
-  }
-  #reservation a {
-      text-decoration: none;
-       color:#007292;
-  }
+#reservation {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 15px 10px 10px 10px;
+  margin: 0 20px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+#reservation a {
+  text-decoration: none;
+  color:#007292;
+}
+
 #reservation a:hover{
-    font-size:1.5em;
-    transition-duration: 500ms;}
+  font-size:1.5em;
+  transition-duration: 500ms;
+}
+
 .burger {
   display: none;
-
 }
+
 .burger-button {
   background-color:black;
   height:5px;
@@ -151,11 +158,15 @@ nav > ul {
 
 /** contact begin **/
 
+.contact-title {
+  padding-top: 60px;
+}
+
 .contact {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    text-align: center;
-    color: #333333;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #333333;
 }
 
 p {
@@ -166,8 +177,8 @@ p {
 }
 
 .subtitle {
-    padding-bottom: 20px;
-    border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
 }
 
 .container-box {
@@ -176,7 +187,7 @@ p {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	padding: 3%;
-    margin: 0px 10%;
+  margin: 0px 10%;
 	border-top: 1px solid grey;
 	height: auto;
 }
@@ -193,7 +204,7 @@ p {
 	text-decoration: none;
 }
 
-.link:hover{
+.link:hover {
 	color: #A3BAC0;
 	font-weight: bold;
 }
@@ -208,7 +219,7 @@ p {
 
 .maps {
 	width: 300px;
-	max-height: 80%;
+	
 	display: inline-flex;
 	flex-wrap: wrap;
 }
@@ -216,11 +227,11 @@ p {
 /* FORMULAIRE */
 
 .container-form {
-    min-width: 300px;
-    max-width: 700px;
-	width: 100%;
-    display: flex;
-	margin: auto;
+  min-width: 300px;
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  margin: auto;
 }
 
 #contact, #contact input {
@@ -259,16 +270,17 @@ label {
 }
 
 #contact-submit {
-	cursor: pointer;
-	width: 100%;
-    align-items: center;
-    justify-content: center;
-	border-radius: 12px;
-    border-color: #007292;
-	background: #007292;
-    color: white;
-	padding: 15px;
-	font-size: 18px;
+
+  cursor: pointer;
+  width: 100%;
+  justify-content: center;
+  border-radius: 12px;
+  border-color: #007292;
+  background: #007292;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+
 }
 
 #contact button:hover {
@@ -279,89 +291,75 @@ label {
 	background-color: #2D7293;
 }
 
-/* POP-UP */
 
 /** contact end **/
 
 /** reservation begin **/
 
 .container-reservation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  margin: 0px 10%;
+	border-top: 1px solid grey;
+	height: auto;
 }
 .container-reservation-form {
-    justify-content: center;
-    font-size: 1.2em;
-    background:#F9F9F9;
-    padding: 15px 25px;
-    margin: 20px;
+  justify-content: center;
+  font-size: 1.2em;
+  background:#F9F9F9;
+  padding: 15px 25px;
+  margin: 20px;
 }
 .container-reservation-form h2 {
-    color: #464646;
-    text-align: center;
-    font-size: 28px;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #464646;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .container-reservation-form div {
-    justify-content: center;
-    margin: 5px;
+  justify-content: center;
+  margin: 5px;
 }
  /** reservation end **/
 
 
 /** FOOTER Begin **/
-.bloc-footer
-{
-    display: flex;
-    position:relative;
-    border: 1px solid black;
-    height: 100%;
-    justify-content: center;
-    background-color:#007292;
-    
-  }
-  .blocs
-  {
+.bloc-footer {
+  display: flex;
+  position:relative;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#007292;
+  color: white;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+  .blocs {
     width: 100px;
     height: 100px;
   }
-
-  .blocs-adress
-  {
-      margin-top:20px;
-      margin-left:50px;
-
+  
+  .blocs-contact {
+    display:flex;
+    flex-direction:column;
+      
   }
 
-  .blocs-adress p
-  {
-    color:white;
+  .blocs-media {
+    display:flex;
+    justify-content: space-around;
   }
 
-  .blocs-Logo
-  {
-    margin-top: 60px;
-}
-  .blocs-contact
-  {
-      margin-top: 20px;
-      display:flex;
-      flex-direction:column;
-      margin-right:50px;
-  }
-
-  .blocs-media
-  {
-     display:flex;
-     justify-content: space-around;
-
-  }
-
-  .text-white {
+  .text-white{
     color: white;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
   }
+
+
 /** FOOTER end **/
 
 /** Page Menus start**/
@@ -624,7 +622,7 @@ padding-top: 80px;
 .container-box {
     align-items:center;
     display: flex;
-    padding: 10px 50px;
+    
 }
 .box-address{
     margin: 10px;
@@ -646,7 +644,7 @@ padding-top: 80px;
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .footer {
     width:97%;
     margin:5px;
@@ -654,25 +652,41 @@ padding-top: 80px;
   .bloc-footer{
     flex-direction:column;
   }
+
+.blocs-Logo{
+    margin:auto;
+    
+  }
+.blocs-adress{
+
+display: flex;
+justify-content: center;
+margin: unset;
+flex-direction: column;
 }
+
+
+.blocs-contact {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0;
+}
+
+.text-white
+  {
+   margin:auto;
+  }
+
+.blocs-media
+  {
+    margin-top:30px;
+  }
+}
+
+/** CSS menu burger**/
 .d-block {
   display: block;
   height: auto;
   width:auto;
 }
-  .blocs-Logo{
-    margin:auto;
-  }
-
-
-  .blocs-adress,.blocs-contact h2
-  {
-   margin:auto;
-  }
-
-
-  .blocs-media
-  {
-    margin-top:30px;
-  }
-

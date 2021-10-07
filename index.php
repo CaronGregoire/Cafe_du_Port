@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bienvenue au Café du Port</title>
     <link href="styles.css" rel="stylesheet" />
     <link rel="shortcut icon" href="logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <?php
@@ -24,7 +25,11 @@
             <h2 class="titleh2" >Présentation</h2>
                 <p class="presentationtime">
                     Le Café du Port est un petit bar restaurant, ravi de vous accueillir
+<<<<<<< HEAD
                     du lundi au dimanche, que ce soit pour déjeuner, diner ou bruncher.
+=======
+                    du Lundi au Dimanche, que ce soit pour déjeuner, diner ou bruncher.
+>>>>>>> feat/correction
                     Nous cuisinons au rythme des saisons afin de exalter vos papilles.
                     Notre terrasse au bord de la Garonne est ouverte dès l'arrivée des beaux jours.
                 </p>
@@ -40,7 +45,7 @@
         <div class="horaires">   
             <h2 class="titleh2">Horaires</h2>
                 <p class="presentationtime">
-                    Notre équipe est présente pour vous acceuillir
+                    Notre équipe est présente pour vous accueillir
                     du lundi au dimanche de 11h00 à 22h00.
                 </p>
                 <p class="presentationtime">
