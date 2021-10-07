@@ -61,7 +61,7 @@
             </div>
             <div>
                 <label for="dateReservation">Date de votre réservation:</label>
-                <input id="dateReservation" name="user_dateReservation" type="date" value = required></input>
+                <input id="dateReservation" name="user_dateReservation" type="date" value = required>
             </div>
             <div>
                 <input type="radio" name="user_timesReservation" value="12h00" id="12h00" /> <label for="12h00">12h00</label><br />

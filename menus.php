@@ -32,35 +32,29 @@
 
   <div class="menu">
 <h1 class="titleh2">Menus</h1>
-
-
-
   </div>
 
   <div class="container">
     <div class="menu">
-
         <?php foreach ($menus as $menuType => $meals): ?>
             <h2 class="menu-group-heading">
                 <?= $menuType ?>
             </h2>
-            <?php foreach ($meals as $key => $mealDetails): ?>
-                <div class="menu-item">
-                    <img class="menu-item-image" src="assets_menus/<?= $mealDetails['img'] ?>" alt="<?= $mealDetails['name'] ?>">
-
-                    <div class="menu-item-text">
-                        <h3 class="menu-item-heading">
-                            <span class="menu-item-name"><?= $mealDetails['name'] ?></span>
-                            <span class="menu-item-price"><?= $mealDetails['price'] ?> €</span>
-
-                        </h3>
-                        <p class="menu-item-description">
-                            <?= $mealDetails['description'] ?>
-                        </p>
+                <?php foreach ($meals as $key => $mealDetails): ?>
+                    <div class="menu-item">
+                        <img class="menu-item-image" src="assets_menus/<?= $mealDetails['img'] ?>" alt="<?= $mealDetails['name'] ?>">
+                        <div class="menu-item-text">
+                            <h3 class="menu-item-heading">
+                                <span class="menu-item-name"><?= $mealDetails['name'] ?></span>
+                                <span class="menu-item-price"><?= $mealDetails['price'] ?> €</span>
+                            </h3>
+                            <p class="menu-item-description">
+                                <?= $mealDetails['description'] ?>
+                            </p>
+                        </div>
                     </div>
-                </div>
-            <?php endforeach ?>
-        <?php endforeach; ?>
+                <?php endforeach ?>
+            <?php endforeach; ?>
     </div>
   </div>
 

@@ -187,16 +187,16 @@ p {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	padding: 3%;
-  margin: 0px 10%;
+    margin: 0px 10%;
 	border-top: 1px solid grey;
 	height: auto;
 }
 
 .box-address {
-	width: 50%;
-	min-width: 50%;
-	padding: 2%;
-	border: 1px solid grey;
+  width: 50%;
+  min-width: 50%;
+  padding: 2%;
+  background-color: #F9F9F9;
 }
 
 .link {
@@ -218,10 +218,9 @@ p {
 }
 
 .maps {
-	width: 300px;
-	
-	display: inline-flex;
-	flex-wrap: wrap;
+  width: 50%;
+  min-width: 50%;
+  padding: 2%;
 }
 
 /* FORMULAIRE */
@@ -240,8 +239,10 @@ p {
 }
 
 #contact h2 {
-	color: #464646;
-	font-size: 24px;
+  color: #464646;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 #contact h4 {
@@ -302,8 +303,9 @@ label {
   align-items: center;
   padding: 3%;
   margin: 0px 10%;
-	border-top: 1px solid grey;
-	height: auto;
+  border-top: 1px solid grey;
+  height: auto;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 .container-reservation-form {
   justify-content: center;
@@ -311,6 +313,7 @@ label {
   background:#F9F9F9;
   padding: 15px 25px;
   margin: 20px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 .container-reservation-form h2 {
   color: #464646;
@@ -548,7 +551,7 @@ img:nth-child(7) {
 
   @media screen and (max-width: 700px){
 	.box{
-	  width: 70%;
+	  width: 100%;
 	}
 	.popup{
 	  width: 70%;
@@ -622,10 +625,12 @@ padding-top: 80px;
 .container-box {
     align-items:center;
     display: flex;
-    
+    padding: 0;
+    margin: 0;
 }
 .box-address{
     margin: 10px;
+    width: 100%;
 }
 
 .maps {
